@@ -65,3 +65,22 @@
 .wrapper .blue {
     color:deepskyblues;
 }
+
+/*动画*/
+#left,
+#right{
+    animation:shine 2s linear infinite;
+    
+}
+
+@keyframes shine{
+    0%{
+        opacity: 0.3;
+    }
+    50%{
+        opacity: 1
+    }
+    100%{
+        opacity: 0.3
+    }
+}
